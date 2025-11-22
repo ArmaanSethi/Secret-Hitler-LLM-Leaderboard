@@ -3,410 +3,412 @@ Player1: Role.LIBERAL
 Player2: Role.LIBERAL
 Player3: Role.LIBERAL
 Player4: Role.FASCIST
-Player5: Role.HITLER
+Player5: Role.FASCIST
+Player6: Role.LIBERAL
+Player7: Role.HITLER
 Round 1 - Roles assigned.
 Round 2 - Roles assigned.
 Round 3 - Roles assigned.
 Round 4 - Roles assigned.
 Round 5 - Roles assigned.
-Round 6 - Player1: Player1 says: I am simulating a player.
-Round 7 - Player1: Player1 says: I am simulating a player.
-Round 8 - Player2: Player2 says: I am simulating a player.
-Round 9 - Player3: Player3 says: I am simulating a player.
-Round 10 - Player4: Player4 says: I am simulating a player.
-Round 11 - Player5: Player5 says: I am simulating a player.
-Round 12 - Player1: Player1 says: I am simulating a player.
-Round 13 - Player2: Player2 says: I am simulating a player.
-Round 14 - Player3: Player3 says: I am simulating a player.
-Round 15 - Player4: Player4 says: I am simulating a player.
-Round 16 - Player5: Player5 says: I am simulating a player.
-Round 17 - Player1 voted NO. Player2 voted YES. Player3 voted NO. Player4 voted NO. Player5 voted NO.
-Round 18 - Player1 nominated Player5 as Chancellor. Vote Results: Yes=1, No=4. Election outcome: Government failed.
-Round 19 - Government failed. Election tracker: 1.
-Round 20 - Player2: Player2 says: I am simulating a player.
-Round 21 - Chaos policy enacted!
-Round 22 - Policy enacted: Liberal. Liberal policies enacted: 1, Fascist policies enacted: 0
-Round 23 - Chaos policy was Liberal.
-Round 24 - Government failed. Election tracker: 1.
-Round 25 - Player3: Player3 says: I am simulating a player.
-Round 26 - Player1: Player1 says: I am simulating a player.
-Round 27 - Player2: Player2 says: I am simulating a player.
-Round 28 - Player3: Player3 says: I am simulating a player.
-Round 29 - Player4: Player4 says: I am simulating a player.
-Round 30 - Player5: Player5 says: I am simulating a player.
-Round 31 - Player1: Player1 says: I am simulating a player.
-Round 32 - Player2: Player2 says: I am simulating a player.
-Round 33 - Player3: Player3 says: I am simulating a player.
-Round 34 - Player4: Player4 says: I am simulating a player.
-Round 35 - Player5: Player5 says: I am simulating a player.
-Round 36 - Player1 voted NO. Player2 voted NO. Player3 voted YES. Player4 voted NO. Player5 voted YES.
-Round 37 - Player3 nominated Player2 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 38 - Government failed. Election tracker: 2.
-Round 39 - Player4: Player4 says: I am simulating a player.
-Round 40 - Chaos policy enacted!
-Round 41 - Policy enacted: Liberal. Liberal policies enacted: 2, Fascist policies enacted: 0
-Round 42 - Chaos policy was Liberal.
-Round 43 - Government failed. Election tracker: 1.
-Round 44 - Player5: Player5 says: I am simulating a player.
-Round 45 - Government failed. Election tracker: 2.
-Round 46 - Player1: Player1 says: I am simulating a player.
-Round 47 - Player1: Player1 says: I am simulating a player.
-Round 48 - Player2: Player2 says: I am simulating a player.
-Round 49 - Player3: Player3 says: I am simulating a player.
-Round 50 - Player4: Player4 says: I am simulating a player.
-Round 51 - Player5: Player5 says: I am simulating a player.
-Round 52 - Player1: Player1 says: I am simulating a player.
-Round 53 - Player2: Player2 says: I am simulating a player.
-Round 54 - Player3: Player3 says: I am simulating a player.
-Round 55 - Player4: Player4 says: I am simulating a player.
-Round 56 - Player5: Player5 says: I am simulating a player.
-Round 57 - Player1 voted YES. Player2 voted NO. Player3 voted YES. Player4 voted NO. Player5 voted YES.
-Round 58 - Player1 nominated Player2 as Chancellor. Vote Results: Yes=3, No=2. Election outcome: Government approved.
-Round 59 - Player1: Player1 says: I am simulating a player.
-Round 60 - Player2: Player2 says: I am simulating a player.
-Round 61 - Policy enacted: Liberal. Liberal policies enacted: 3, Fascist policies enacted: 0
-Round 62 - President Player1 discarded a policy. Chancellor Player2 enacted a Role.LIBERAL policy.
-Round 63 - Player2: Player2 says: I am simulating a player.
-Round 64 - Player1: Player1 says: I am simulating a player.
-Round 65 - Player2: Player2 says: I am simulating a player.
-Round 66 - Player3: Player3 says: I am simulating a player.
-Round 67 - Player4: Player4 says: I am simulating a player.
+Round 6 - Roles assigned.
+Round 7 - Roles assigned.
+Round 8 - Player1: Player1 says: I am simulating a player.
+Round 9 - Government failed. Election tracker: 1.
+Round 10 - Player2: Player2 says: I am simulating a player.
+Round 11 - Player1: Player1 says: I am simulating a player.
+Round 12 - Player2: Player2 says: I am simulating a player.
+Round 13 - Player3: Player3 says: I am simulating a player.
+Round 14 - Player4: Player4 says: I am simulating a player.
+Round 15 - Player5: Player5 says: I am simulating a player.
+Round 16 - Player6: Player6 says: I am simulating a player.
+Round 17 - Player7: Player7 says: I am simulating a player.
+Round 18 - Player1: Player1 says: I am simulating a player.
+Round 19 - Player2: Player2 says: I am simulating a player.
+Round 20 - Player3: Player3 says: I am simulating a player.
+Round 21 - Player4: Player4 says: I am simulating a player.
+Round 22 - Player5: Player5 says: I am simulating a player.
+Round 23 - Player6: Player6 says: I am simulating a player.
+Round 24 - Player7: Player7 says: I am simulating a player.
+Round 25 - Player1 voted NO. Player2 voted NO. Player3 voted NO. Player4 voted YES. Player5 voted NO. Player6 voted NO. Player7 voted YES.
+Round 26 - Player2 nominated Player7 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 27 - Chaos policy enacted!
+Round 28 - Policy enacted: Fascist. Liberal policies enacted: 0, Fascist policies enacted: 1
+Round 29 - Chaos policy was Fascist.
+Round 30 - Government failed. Election tracker: 1.
+Round 31 - Player3: Player3 says: I am simulating a player.
+Round 32 - Player1: Player1 says: I am simulating a player.
+Round 33 - Player2: Player2 says: I am simulating a player.
+Round 34 - Player3: Player3 says: I am simulating a player.
+Round 35 - Player4: Player4 says: I am simulating a player.
+Round 36 - Player5: Player5 says: I am simulating a player.
+Round 37 - Player6: Player6 says: I am simulating a player.
+Round 38 - Player7: Player7 says: I am simulating a player.
+Round 39 - Player1: Player1 says: I am simulating a player.
+Round 40 - Player2: Player2 says: I am simulating a player.
+Round 41 - Player3: Player3 says: I am simulating a player.
+Round 42 - Player4: Player4 says: I am simulating a player.
+Round 43 - Player5: Player5 says: I am simulating a player.
+Round 44 - Player6: Player6 says: I am simulating a player.
+Round 45 - Player7: Player7 says: I am simulating a player.
+Round 46 - Player1 voted NO. Player2 voted YES. Player3 voted NO. Player4 voted YES. Player5 voted NO. Player6 voted NO. Player7 voted NO.
+Round 47 - Player3 nominated Player6 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 48 - Government failed. Election tracker: 2.
+Round 49 - Player4: Player4 says: I am simulating a player.
+Round 50 - Player1: Player1 says: I am simulating a player.
+Round 51 - Player2: Player2 says: I am simulating a player.
+Round 52 - Player3: Player3 says: I am simulating a player.
+Round 53 - Player4: Player4 says: I am simulating a player.
+Round 54 - Player5: Player5 says: I am simulating a player.
+Round 55 - Player6: Player6 says: I am simulating a player.
+Round 56 - Player7: Player7 says: I am simulating a player.
+Round 57 - Player1: Player1 says: I am simulating a player.
+Round 58 - Player2: Player2 says: I am simulating a player.
+Round 59 - Player3: Player3 says: I am simulating a player.
+Round 60 - Player4: Player4 says: I am simulating a player.
+Round 61 - Player5: Player5 says: I am simulating a player.
+Round 62 - Player6: Player6 says: I am simulating a player.
+Round 63 - Player7: Player7 says: I am simulating a player.
+Round 64 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted NO. Player5 voted YES. Player6 voted NO. Player7 voted NO.
+Round 65 - Player4 nominated Player1 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 66 - Policy enacted: Fascist. Liberal policies enacted: 0, Fascist policies enacted: 2
+Round 67 - Election Tracker maxed! Fascist policy enacted .
 Round 68 - Player5: Player5 says: I am simulating a player.
 Round 69 - Player1: Player1 says: I am simulating a player.
 Round 70 - Player2: Player2 says: I am simulating a player.
 Round 71 - Player3: Player3 says: I am simulating a player.
 Round 72 - Player4: Player4 says: I am simulating a player.
 Round 73 - Player5: Player5 says: I am simulating a player.
-Round 74 - Player1 voted NO. Player2 voted YES. Player3 voted NO. Player4 voted NO. Player5 voted YES.
-Round 75 - Player2 nominated Player5 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 76 - Chaos policy enacted!
-Round 77 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 1
-Round 78 - Chaos policy was Fascist.
-Round 79 - Government failed. Election tracker: 1.
-Round 80 - Player3: Player3 says: I am simulating a player.
-Round 81 - Player1: Player1 says: I am simulating a player.
-Round 82 - Player2: Player2 says: I am simulating a player.
-Round 83 - Player3: Player3 says: I am simulating a player.
-Round 84 - Player4: Player4 says: I am simulating a player.
-Round 85 - Player5: Player5 says: I am simulating a player.
-Round 86 - Player1: Player1 says: I am simulating a player.
-Round 87 - Player2: Player2 says: I am simulating a player.
-Round 88 - Player3: Player3 says: I am simulating a player.
-Round 89 - Player4: Player4 says: I am simulating a player.
-Round 90 - Player5: Player5 says: I am simulating a player.
-Round 91 - Player1 voted NO. Player2 voted NO. Player3 voted NO. Player4 voted YES. Player5 voted YES.
-Round 92 - Player3 nominated Player5 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 93 - Government failed. Election tracker: 2.
-Round 94 - Player4: Player4 says: I am simulating a player.
-Round 95 - Player1: Player1 says: I am simulating a player.
-Round 96 - Player2: Player2 says: I am simulating a player.
-Round 97 - Player3: Player3 says: I am simulating a player.
-Round 98 - Player4: Player4 says: I am simulating a player.
-Round 99 - Player5: Player5 says: I am simulating a player.
-Round 100 - Player1: Player1 says: I am simulating a player.
-Round 101 - Player2: Player2 says: I am simulating a player.
-Round 102 - Player3: Player3 says: I am simulating a player.
-Round 103 - Player4: Player4 says: I am simulating a player.
-Round 104 - Player5: Player5 says: I am simulating a player.
-Round 105 - Player1 voted NO. Player2 voted NO. Player3 voted YES. Player4 voted NO. Player5 voted NO.
-Round 106 - Player4 nominated Player1 as Chancellor. Vote Results: Yes=1, No=4. Election outcome: Government failed.
-Round 107 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 2
-Round 108 - Election Tracker maxed! Fascist policy enacted .
-Round 109 - Player5: Player5 says: I am simulating a player.
-Round 110 - Player1: Player1 says: I am simulating a player.
-Round 111 - Player2: Player2 says: I am simulating a player.
-Round 112 - Player3: Player3 says: I am simulating a player.
-Round 113 - Player4: Player4 says: I am simulating a player.
-Round 114 - Player5: Player5 says: I am simulating a player.
+Round 74 - Player6: Player6 says: I am simulating a player.
+Round 75 - Player7: Player7 says: I am simulating a player.
+Round 76 - Player1: Player1 says: I am simulating a player.
+Round 77 - Player2: Player2 says: I am simulating a player.
+Round 78 - Player3: Player3 says: I am simulating a player.
+Round 79 - Player4: Player4 says: I am simulating a player.
+Round 80 - Player5: Player5 says: I am simulating a player.
+Round 81 - Player6: Player6 says: I am simulating a player.
+Round 82 - Player7: Player7 says: I am simulating a player.
+Round 83 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted NO. Player5 voted NO. Player6 voted YES. Player7 voted NO.
+Round 84 - Player5 nominated Player6 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 85 - Chaos policy enacted!
+Round 86 - Policy enacted: Liberal. Liberal policies enacted: 1, Fascist policies enacted: 2
+Round 87 - Chaos policy was Liberal.
+Round 88 - Government failed. Election tracker: 1.
+Round 89 - Player6: Player6 says: I am simulating a player.
+Round 90 - Player1: Player1 says: I am simulating a player.
+Round 91 - Player2: Player2 says: I am simulating a player.
+Round 92 - Player3: Player3 says: I am simulating a player.
+Round 93 - Player4: Player4 says: I am simulating a player.
+Round 94 - Player5: Player5 says: I am simulating a player.
+Round 95 - Player6: Player6 says: I am simulating a player.
+Round 96 - Player7: Player7 says: I am simulating a player.
+Round 97 - Player1: Player1 says: I am simulating a player.
+Round 98 - Player2: Player2 says: I am simulating a player.
+Round 99 - Player3: Player3 says: I am simulating a player.
+Round 100 - Player4: Player4 says: I am simulating a player.
+Round 101 - Player5: Player5 says: I am simulating a player.
+Round 102 - Player6: Player6 says: I am simulating a player.
+Round 103 - Player7: Player7 says: I am simulating a player.
+Round 104 - Player1 voted NO. Player2 voted YES. Player3 voted YES. Player4 voted NO. Player5 voted YES. Player6 voted NO. Player7 voted YES.
+Round 105 - Player6 nominated Player5 as Chancellor. Vote Results: Yes=4, No=3. Election outcome: Government approved.
+Round 106 - Player6: Player6 says: I am simulating a player.
+Round 107 - Player5: Player5 says: I am simulating a player.
+Round 108 - Policy enacted: Fascist. Liberal policies enacted: 1, Fascist policies enacted: 3
+Round 109 - President Player6 discarded a policy. Chancellor Player5 enacted a Role.FASCIST policy.
+Round 110 - Player6: Player6 says: I am simulating a player.
+Round 111 - Player6 investigated Player4. Result: Role.FASCIST membership.
+Round 112 - Player7: Player7 says: I am simulating a player.
+Round 113 - Government failed. Election tracker: 1.
+Round 114 - Player1: Player1 says: I am simulating a player.
 Round 115 - Player1: Player1 says: I am simulating a player.
 Round 116 - Player2: Player2 says: I am simulating a player.
 Round 117 - Player3: Player3 says: I am simulating a player.
 Round 118 - Player4: Player4 says: I am simulating a player.
 Round 119 - Player5: Player5 says: I am simulating a player.
-Round 120 - Player1 voted YES. Player2 voted YES. Player3 voted YES. Player4 voted YES. Player5 voted YES.
-Round 121 - Player5 nominated Player4 as Chancellor. Vote Results: Yes=5, No=0. Election outcome: Government approved.
-Round 122 - Player5: Player5 says: I am simulating a player.
-Round 123 - Player4: Player4 says: I am simulating a player.
-Round 124 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 3
-Round 125 - President Player5 discarded a policy. Chancellor Player4 enacted a Role.FASCIST policy.
+Round 120 - Player6: Player6 says: I am simulating a player.
+Round 121 - Player7: Player7 says: I am simulating a player.
+Round 122 - Player1: Player1 says: I am simulating a player.
+Round 123 - Player2: Player2 says: I am simulating a player.
+Round 124 - Player3: Player3 says: I am simulating a player.
+Round 125 - Player4: Player4 says: I am simulating a player.
 Round 126 - Player5: Player5 says: I am simulating a player.
-Round 127 - Player5 investigated Player4. Result: Role.FASCIST membership.
-Round 128 - Player1: Player1 says: I am simulating a player.
-Round 129 - Player1: Player1 says: I am simulating a player.
-Round 130 - Player2: Player2 says: I am simulating a player.
-Round 131 - Player3: Player3 says: I am simulating a player.
-Round 132 - Player4: Player4 says: I am simulating a player.
-Round 133 - Player5: Player5 says: I am simulating a player.
-Round 134 - Player1: Player1 says: I am simulating a player.
-Round 135 - Player2: Player2 says: I am simulating a player.
-Round 136 - Player3: Player3 says: I am simulating a player.
-Round 137 - Player4: Player4 says: I am simulating a player.
-Round 138 - Player5: Player5 says: I am simulating a player.
-Round 139 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted YES. Player5 voted NO.
-Round 140 - Player1 nominated Player2 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 141 - Chaos policy enacted!
-Round 142 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 4
-Round 143 - Chaos policy was Fascist.
-Round 144 - Government failed. Election tracker: 1.
-Round 145 - Player2: Player2 says: I am simulating a player.
-Round 146 - Player1: Player1 says: I am simulating a player.
-Round 147 - Player2: Player2 says: I am simulating a player.
-Round 148 - Player3: Player3 says: I am simulating a player.
-Round 149 - Player4: Player4 says: I am simulating a player.
-Round 150 - Player5: Player5 says: I am simulating a player.
-Round 151 - Player1: Player1 says: I am simulating a player.
-Round 152 - Player2: Player2 says: I am simulating a player.
-Round 153 - Player3: Player3 says: I am simulating a player.
-Round 154 - Player4: Player4 says: I am simulating a player.
-Round 155 - Player5: Player5 says: I am simulating a player.
-Round 156 - Player1 voted NO. Player2 voted YES. Player3 voted YES. Player4 voted NO. Player5 voted NO.
-Round 157 - Player2 nominated Player3 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 158 - Government failed. Election tracker: 2.
-Round 159 - Player3: Player3 says: I am simulating a player.
-Round 160 - Chaos policy enacted!
-Round 161 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 5
-Round 162 - Chaos policy was Fascist.
-Round 163 - Government failed. Election tracker: 1.
-Round 164 - Player4: Player4 says: I am simulating a player.
-Round 165 - Player1: Player1 says: I am simulating a player.
-Round 166 - Player2: Player2 says: I am simulating a player.
-Round 167 - Player3: Player3 says: I am simulating a player.
-Round 168 - Player4: Player4 says: I am simulating a player.
-Round 169 - Player5: Player5 says: I am simulating a player.
-Round 170 - Player1: Player1 says: I am simulating a player.
-Round 171 - Player2: Player2 says: I am simulating a player.
-Round 172 - Player3: Player3 says: I am simulating a player.
-Round 173 - Player4: Player4 says: I am simulating a player.
-Round 174 - Player5: Player5 says: I am simulating a player.
-Round 175 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted YES. Player5 voted NO.
-Round 176 - Player4 nominated Player1 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 177 - Government failed. Election tracker: 2.
-Round 178 - Player5: Player5 says: I am simulating a player.
-Round 179 - Player1: Player1 says: I am simulating a player.
-Round 180 - Player2: Player2 says: I am simulating a player.
-Round 181 - Player3: Player3 says: I am simulating a player.
-Round 182 - Player4: Player4 says: I am simulating a player.
-Round 183 - Player5: Player5 says: I am simulating a player.
-Round 184 - Player1: Player1 says: I am simulating a player.
-Round 185 - Player2: Player2 says: I am simulating a player.
-Round 186 - Player3: Player3 says: I am simulating a player.
-Round 187 - Player4: Player4 says: I am simulating a player.
-Round 188 - Player5: Player5 says: I am simulating a player.
-Round 189 - Player1 voted YES. Player2 voted YES. Player3 voted NO. Player4 voted NO. Player5 voted YES.
-Round 190 - Player5 nominated Player4 as Chancellor. Vote Results: Yes=3, No=2. Election outcome: Government approved.
-Round 191 - Player5: Player5 says: I am simulating a player.
-Round 192 - Player4: Player4 says: I am simulating a player.
-Round 193 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 6
-Round End - Fascists win by policies.
-Round End - President Player5 discarded a policy. Chancellor Player4 enacted a Role.FASCIST policy.
-Round End - Player5: Player5 says: I am simulating a player.
-Round End - Player1 executed.
-Round End - Player5 executed Player1.
-Round End - Fascists win by policies.
-Round End - Fascists win by policies.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      --- ROLES ---
+Round 127 - Player6: Player6 says: I am simulating a player.
+Round 128 - Player7: Player7 says: I am simulating a player.
+Round 129 - Player1 voted YES. Player2 voted YES. Player3 voted YES. Player4 voted NO. Player5 voted YES. Player6 voted YES. Player7 voted YES.
+Round 130 - Player1 nominated Player7 as Chancellor. Vote Results: Yes=6, No=1. Election outcome: Government approved.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            --- ROLES ---
 Player1: Role.LIBERAL
 Player2: Role.LIBERAL
 Player3: Role.LIBERAL
 Player4: Role.FASCIST
-Player5: Role.HITLER
+Player5: Role.FASCIST
+Player6: Role.LIBERAL
+Player7: Role.HITLER
 Round 1 - Roles assigned.
 Round 2 - Roles assigned.
 Round 3 - Roles assigned.
 Round 4 - Roles assigned.
 Round 5 - Roles assigned.
-Round 6 - Player1: Player1 says: I am simulating a player.
-Round 7 - Player1: Player1 says: I am simulating a player.
-Round 8 - Player2: Player2 says: I am simulating a player.
-Round 9 - Player3: Player3 says: I am simulating a player.
-Round 10 - Player4: Player4 says: I am simulating a player.
-Round 11 - Player5: Player5 says: I am simulating a player.
-Round 12 - Player1: Player1 says: I am simulating a player.
-Round 13 - Player2: Player2 says: I am simulating a player.
-Round 14 - Player3: Player3 says: I am simulating a player.
-Round 15 - Player4: Player4 says: I am simulating a player.
-Round 16 - Player5: Player5 says: I am simulating a player.
-Round 17 - Player1 voted NO. Player2 voted YES. Player3 voted NO. Player4 voted NO. Player5 voted NO.
-Round 18 - Player1 nominated Player5 as Chancellor. Vote Results: Yes=1, No=4. Election outcome: Government failed.
-Round 19 - Government failed. Election tracker: 1.
-Round 20 - Player2: Player2 says: I am simulating a player.
-Round 21 - Chaos policy enacted!
-Round 22 - Policy enacted: Liberal. Liberal policies enacted: 1, Fascist policies enacted: 0
-Round 23 - Chaos policy was Liberal.
-Round 24 - Government failed. Election tracker: 1.
-Round 25 - Player3: Player3 says: I am simulating a player.
-Round 26 - Player1: Player1 says: I am simulating a player.
-Round 27 - Player2: Player2 says: I am simulating a player.
-Round 28 - Player3: Player3 says: I am simulating a player.
-Round 29 - Player4: Player4 says: I am simulating a player.
-Round 30 - Player5: Player5 says: I am simulating a player.
-Round 31 - Player1: Player1 says: I am simulating a player.
-Round 32 - Player2: Player2 says: I am simulating a player.
-Round 33 - Player3: Player3 says: I am simulating a player.
-Round 34 - Player4: Player4 says: I am simulating a player.
-Round 35 - Player5: Player5 says: I am simulating a player.
-Round 36 - Player1 voted NO. Player2 voted NO. Player3 voted YES. Player4 voted NO. Player5 voted YES.
-Round 37 - Player3 nominated Player2 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 38 - Government failed. Election tracker: 2.
-Round 39 - Player4: Player4 says: I am simulating a player.
-Round 40 - Chaos policy enacted!
-Round 41 - Policy enacted: Liberal. Liberal policies enacted: 2, Fascist policies enacted: 0
-Round 42 - Chaos policy was Liberal.
-Round 43 - Government failed. Election tracker: 1.
-Round 44 - Player5: Player5 says: I am simulating a player.
-Round 45 - Government failed. Election tracker: 2.
-Round 46 - Player1: Player1 says: I am simulating a player.
-Round 47 - Player1: Player1 says: I am simulating a player.
-Round 48 - Player2: Player2 says: I am simulating a player.
-Round 49 - Player3: Player3 says: I am simulating a player.
-Round 50 - Player4: Player4 says: I am simulating a player.
-Round 51 - Player5: Player5 says: I am simulating a player.
-Round 52 - Player1: Player1 says: I am simulating a player.
-Round 53 - Player2: Player2 says: I am simulating a player.
-Round 54 - Player3: Player3 says: I am simulating a player.
-Round 55 - Player4: Player4 says: I am simulating a player.
-Round 56 - Player5: Player5 says: I am simulating a player.
-Round 57 - Player1 voted YES. Player2 voted NO. Player3 voted YES. Player4 voted NO. Player5 voted YES.
-Round 58 - Player1 nominated Player2 as Chancellor. Vote Results: Yes=3, No=2. Election outcome: Government approved.
-Round 59 - Player1: Player1 says: I am simulating a player.
-Round 60 - Player2: Player2 says: I am simulating a player.
-Round 61 - Policy enacted: Liberal. Liberal policies enacted: 3, Fascist policies enacted: 0
-Round 62 - President Player1 discarded a policy. Chancellor Player2 enacted a Role.LIBERAL policy.
-Round 63 - Player2: Player2 says: I am simulating a player.
-Round 64 - Player1: Player1 says: I am simulating a player.
-Round 65 - Player2: Player2 says: I am simulating a player.
-Round 66 - Player3: Player3 says: I am simulating a player.
-Round 67 - Player4: Player4 says: I am simulating a player.
+Round 6 - Roles assigned.
+Round 7 - Roles assigned.
+Round 8 - Player1: Player1 says: I am simulating a player.
+Round 9 - Government failed. Election tracker: 1.
+Round 10 - Player2: Player2 says: I am simulating a player.
+Round 11 - Player1: Player1 says: I am simulating a player.
+Round 12 - Player2: Player2 says: I am simulating a player.
+Round 13 - Player3: Player3 says: I am simulating a player.
+Round 14 - Player4: Player4 says: I am simulating a player.
+Round 15 - Player5: Player5 says: I am simulating a player.
+Round 16 - Player6: Player6 says: I am simulating a player.
+Round 17 - Player7: Player7 says: I am simulating a player.
+Round 18 - Player1: Player1 says: I am simulating a player.
+Round 19 - Player2: Player2 says: I am simulating a player.
+Round 20 - Player3: Player3 says: I am simulating a player.
+Round 21 - Player4: Player4 says: I am simulating a player.
+Round 22 - Player5: Player5 says: I am simulating a player.
+Round 23 - Player6: Player6 says: I am simulating a player.
+Round 24 - Player7: Player7 says: I am simulating a player.
+Round 25 - Player1 voted NO. Player2 voted NO. Player3 voted NO. Player4 voted YES. Player5 voted NO. Player6 voted NO. Player7 voted YES.
+Round 26 - Player2 nominated Player7 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 27 - Chaos policy enacted!
+Round 28 - Policy enacted: Fascist. Liberal policies enacted: 0, Fascist policies enacted: 1
+Round 29 - Chaos policy was Fascist.
+Round 30 - Government failed. Election tracker: 1.
+Round 31 - Player3: Player3 says: I am simulating a player.
+Round 32 - Player1: Player1 says: I am simulating a player.
+Round 33 - Player2: Player2 says: I am simulating a player.
+Round 34 - Player3: Player3 says: I am simulating a player.
+Round 35 - Player4: Player4 says: I am simulating a player.
+Round 36 - Player5: Player5 says: I am simulating a player.
+Round 37 - Player6: Player6 says: I am simulating a player.
+Round 38 - Player7: Player7 says: I am simulating a player.
+Round 39 - Player1: Player1 says: I am simulating a player.
+Round 40 - Player2: Player2 says: I am simulating a player.
+Round 41 - Player3: Player3 says: I am simulating a player.
+Round 42 - Player4: Player4 says: I am simulating a player.
+Round 43 - Player5: Player5 says: I am simulating a player.
+Round 44 - Player6: Player6 says: I am simulating a player.
+Round 45 - Player7: Player7 says: I am simulating a player.
+Round 46 - Player1 voted NO. Player2 voted YES. Player3 voted NO. Player4 voted YES. Player5 voted NO. Player6 voted NO. Player7 voted NO.
+Round 47 - Player3 nominated Player6 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 48 - Government failed. Election tracker: 2.
+Round 49 - Player4: Player4 says: I am simulating a player.
+Round 50 - Player1: Player1 says: I am simulating a player.
+Round 51 - Player2: Player2 says: I am simulating a player.
+Round 52 - Player3: Player3 says: I am simulating a player.
+Round 53 - Player4: Player4 says: I am simulating a player.
+Round 54 - Player5: Player5 says: I am simulating a player.
+Round 55 - Player6: Player6 says: I am simulating a player.
+Round 56 - Player7: Player7 says: I am simulating a player.
+Round 57 - Player1: Player1 says: I am simulating a player.
+Round 58 - Player2: Player2 says: I am simulating a player.
+Round 59 - Player3: Player3 says: I am simulating a player.
+Round 60 - Player4: Player4 says: I am simulating a player.
+Round 61 - Player5: Player5 says: I am simulating a player.
+Round 62 - Player6: Player6 says: I am simulating a player.
+Round 63 - Player7: Player7 says: I am simulating a player.
+Round 64 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted NO. Player5 voted YES. Player6 voted NO. Player7 voted NO.
+Round 65 - Player4 nominated Player1 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 66 - Policy enacted: Fascist. Liberal policies enacted: 0, Fascist policies enacted: 2
+Round 67 - Election Tracker maxed! Fascist policy enacted .
 Round 68 - Player5: Player5 says: I am simulating a player.
 Round 69 - Player1: Player1 says: I am simulating a player.
 Round 70 - Player2: Player2 says: I am simulating a player.
 Round 71 - Player3: Player3 says: I am simulating a player.
 Round 72 - Player4: Player4 says: I am simulating a player.
 Round 73 - Player5: Player5 says: I am simulating a player.
-Round 74 - Player1 voted NO. Player2 voted YES. Player3 voted NO. Player4 voted NO. Player5 voted YES.
-Round 75 - Player2 nominated Player5 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 76 - Chaos policy enacted!
-Round 77 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 1
-Round 78 - Chaos policy was Fascist.
-Round 79 - Government failed. Election tracker: 1.
-Round 80 - Player3: Player3 says: I am simulating a player.
-Round 81 - Player1: Player1 says: I am simulating a player.
-Round 82 - Player2: Player2 says: I am simulating a player.
-Round 83 - Player3: Player3 says: I am simulating a player.
-Round 84 - Player4: Player4 says: I am simulating a player.
-Round 85 - Player5: Player5 says: I am simulating a player.
-Round 86 - Player1: Player1 says: I am simulating a player.
-Round 87 - Player2: Player2 says: I am simulating a player.
-Round 88 - Player3: Player3 says: I am simulating a player.
-Round 89 - Player4: Player4 says: I am simulating a player.
-Round 90 - Player5: Player5 says: I am simulating a player.
-Round 91 - Player1 voted NO. Player2 voted NO. Player3 voted NO. Player4 voted YES. Player5 voted YES.
-Round 92 - Player3 nominated Player5 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 93 - Government failed. Election tracker: 2.
-Round 94 - Player4: Player4 says: I am simulating a player.
-Round 95 - Player1: Player1 says: I am simulating a player.
-Round 96 - Player2: Player2 says: I am simulating a player.
-Round 97 - Player3: Player3 says: I am simulating a player.
-Round 98 - Player4: Player4 says: I am simulating a player.
-Round 99 - Player5: Player5 says: I am simulating a player.
-Round 100 - Player1: Player1 says: I am simulating a player.
-Round 101 - Player2: Player2 says: I am simulating a player.
-Round 102 - Player3: Player3 says: I am simulating a player.
-Round 103 - Player4: Player4 says: I am simulating a player.
-Round 104 - Player5: Player5 says: I am simulating a player.
-Round 105 - Player1 voted NO. Player2 voted NO. Player3 voted YES. Player4 voted NO. Player5 voted NO.
-Round 106 - Player4 nominated Player1 as Chancellor. Vote Results: Yes=1, No=4. Election outcome: Government failed.
-Round 107 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 2
-Round 108 - Election Tracker maxed! Fascist policy enacted .
-Round 109 - Player5: Player5 says: I am simulating a player.
-Round 110 - Player1: Player1 says: I am simulating a player.
-Round 111 - Player2: Player2 says: I am simulating a player.
-Round 112 - Player3: Player3 says: I am simulating a player.
-Round 113 - Player4: Player4 says: I am simulating a player.
-Round 114 - Player5: Player5 says: I am simulating a player.
+Round 74 - Player6: Player6 says: I am simulating a player.
+Round 75 - Player7: Player7 says: I am simulating a player.
+Round 76 - Player1: Player1 says: I am simulating a player.
+Round 77 - Player2: Player2 says: I am simulating a player.
+Round 78 - Player3: Player3 says: I am simulating a player.
+Round 79 - Player4: Player4 says: I am simulating a player.
+Round 80 - Player5: Player5 says: I am simulating a player.
+Round 81 - Player6: Player6 says: I am simulating a player.
+Round 82 - Player7: Player7 says: I am simulating a player.
+Round 83 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted NO. Player5 voted NO. Player6 voted YES. Player7 voted NO.
+Round 84 - Player5 nominated Player6 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 85 - Chaos policy enacted!
+Round 86 - Policy enacted: Liberal. Liberal policies enacted: 1, Fascist policies enacted: 2
+Round 87 - Chaos policy was Liberal.
+Round 88 - Government failed. Election tracker: 1.
+Round 89 - Player6: Player6 says: I am simulating a player.
+Round 90 - Player1: Player1 says: I am simulating a player.
+Round 91 - Player2: Player2 says: I am simulating a player.
+Round 92 - Player3: Player3 says: I am simulating a player.
+Round 93 - Player4: Player4 says: I am simulating a player.
+Round 94 - Player5: Player5 says: I am simulating a player.
+Round 95 - Player6: Player6 says: I am simulating a player.
+Round 96 - Player7: Player7 says: I am simulating a player.
+Round 97 - Player1: Player1 says: I am simulating a player.
+Round 98 - Player2: Player2 says: I am simulating a player.
+Round 99 - Player3: Player3 says: I am simulating a player.
+Round 100 - Player4: Player4 says: I am simulating a player.
+Round 101 - Player5: Player5 says: I am simulating a player.
+Round 102 - Player6: Player6 says: I am simulating a player.
+Round 103 - Player7: Player7 says: I am simulating a player.
+Round 104 - Player1 voted NO. Player2 voted YES. Player3 voted YES. Player4 voted NO. Player5 voted YES. Player6 voted NO. Player7 voted YES.
+Round 105 - Player6 nominated Player5 as Chancellor. Vote Results: Yes=4, No=3. Election outcome: Government approved.
+Round 106 - Player6: Player6 says: I am simulating a player.
+Round 107 - Player5: Player5 says: I am simulating a player.
+Round 108 - Policy enacted: Fascist. Liberal policies enacted: 1, Fascist policies enacted: 3
+Round 109 - President Player6 discarded a policy. Chancellor Player5 enacted a Role.FASCIST policy.
+Round 110 - Player6: Player6 says: I am simulating a player.
+Round 111 - Player6 investigated Player4. Result: Role.FASCIST membership.
+Round 112 - Player7: Player7 says: I am simulating a player.
+Round 113 - Government failed. Election tracker: 1.
+Round 114 - Player1: Player1 says: I am simulating a player.
 Round 115 - Player1: Player1 says: I am simulating a player.
 Round 116 - Player2: Player2 says: I am simulating a player.
 Round 117 - Player3: Player3 says: I am simulating a player.
 Round 118 - Player4: Player4 says: I am simulating a player.
 Round 119 - Player5: Player5 says: I am simulating a player.
-Round 120 - Player1 voted YES. Player2 voted YES. Player3 voted YES. Player4 voted YES. Player5 voted YES.
-Round 121 - Player5 nominated Player4 as Chancellor. Vote Results: Yes=5, No=0. Election outcome: Government approved.
-Round 122 - Player5: Player5 says: I am simulating a player.
-Round 123 - Player4: Player4 says: I am simulating a player.
-Round 124 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 3
-Round 125 - President Player5 discarded a policy. Chancellor Player4 enacted a Role.FASCIST policy.
+Round 120 - Player6: Player6 says: I am simulating a player.
+Round 121 - Player7: Player7 says: I am simulating a player.
+Round 122 - Player1: Player1 says: I am simulating a player.
+Round 123 - Player2: Player2 says: I am simulating a player.
+Round 124 - Player3: Player3 says: I am simulating a player.
+Round 125 - Player4: Player4 says: I am simulating a player.
 Round 126 - Player5: Player5 says: I am simulating a player.
-Round 127 - Player5 investigated Player4. Result: Role.FASCIST membership.
-Round 128 - Player1: Player1 says: I am simulating a player.
-Round 129 - Player1: Player1 says: I am simulating a player.
-Round 130 - Player2: Player2 says: I am simulating a player.
-Round 131 - Player3: Player3 says: I am simulating a player.
-Round 132 - Player4: Player4 says: I am simulating a player.
-Round 133 - Player5: Player5 says: I am simulating a player.
-Round 134 - Player1: Player1 says: I am simulating a player.
-Round 135 - Player2: Player2 says: I am simulating a player.
-Round 136 - Player3: Player3 says: I am simulating a player.
-Round 137 - Player4: Player4 says: I am simulating a player.
-Round 138 - Player5: Player5 says: I am simulating a player.
-Round 139 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted YES. Player5 voted NO.
-Round 140 - Player1 nominated Player2 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 141 - Chaos policy enacted!
-Round 142 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 4
-Round 143 - Chaos policy was Fascist.
-Round 144 - Government failed. Election tracker: 1.
-Round 145 - Player2: Player2 says: I am simulating a player.
-Round 146 - Player1: Player1 says: I am simulating a player.
-Round 147 - Player2: Player2 says: I am simulating a player.
-Round 148 - Player3: Player3 says: I am simulating a player.
-Round 149 - Player4: Player4 says: I am simulating a player.
-Round 150 - Player5: Player5 says: I am simulating a player.
-Round 151 - Player1: Player1 says: I am simulating a player.
-Round 152 - Player2: Player2 says: I am simulating a player.
-Round 153 - Player3: Player3 says: I am simulating a player.
-Round 154 - Player4: Player4 says: I am simulating a player.
-Round 155 - Player5: Player5 says: I am simulating a player.
-Round 156 - Player1 voted NO. Player2 voted YES. Player3 voted YES. Player4 voted NO. Player5 voted NO.
-Round 157 - Player2 nominated Player3 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 158 - Government failed. Election tracker: 2.
-Round 159 - Player3: Player3 says: I am simulating a player.
-Round 160 - Chaos policy enacted!
-Round 161 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 5
-Round 162 - Chaos policy was Fascist.
-Round 163 - Government failed. Election tracker: 1.
-Round 164 - Player4: Player4 says: I am simulating a player.
-Round 165 - Player1: Player1 says: I am simulating a player.
-Round 166 - Player2: Player2 says: I am simulating a player.
-Round 167 - Player3: Player3 says: I am simulating a player.
-Round 168 - Player4: Player4 says: I am simulating a player.
-Round 169 - Player5: Player5 says: I am simulating a player.
-Round 170 - Player1: Player1 says: I am simulating a player.
-Round 171 - Player2: Player2 says: I am simulating a player.
-Round 172 - Player3: Player3 says: I am simulating a player.
-Round 173 - Player4: Player4 says: I am simulating a player.
-Round 174 - Player5: Player5 says: I am simulating a player.
-Round 175 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted YES. Player5 voted NO.
-Round 176 - Player4 nominated Player1 as Chancellor. Vote Results: Yes=2, No=3. Election outcome: Government failed.
-Round 177 - Government failed. Election tracker: 2.
-Round 178 - Player5: Player5 says: I am simulating a player.
-Round 179 - Player1: Player1 says: I am simulating a player.
-Round 180 - Player2: Player2 says: I am simulating a player.
-Round 181 - Player3: Player3 says: I am simulating a player.
-Round 182 - Player4: Player4 says: I am simulating a player.
-Round 183 - Player5: Player5 says: I am simulating a player.
-Round 184 - Player1: Player1 says: I am simulating a player.
-Round 185 - Player2: Player2 says: I am simulating a player.
-Round 186 - Player3: Player3 says: I am simulating a player.
-Round 187 - Player4: Player4 says: I am simulating a player.
-Round 188 - Player5: Player5 says: I am simulating a player.
-Round 189 - Player1 voted YES. Player2 voted YES. Player3 voted NO. Player4 voted NO. Player5 voted YES.
-Round 190 - Player5 nominated Player4 as Chancellor. Vote Results: Yes=3, No=2. Election outcome: Government approved.
-Round 191 - Player5: Player5 says: I am simulating a player.
-Round 192 - Player4: Player4 says: I am simulating a player.
-Round 193 - Policy enacted: Fascist. Liberal policies enacted: 3, Fascist policies enacted: 6
-Round End - Fascists win by policies.
-Round End - President Player5 discarded a policy. Chancellor Player4 enacted a Role.FASCIST policy.
-Round End - Player5: Player5 says: I am simulating a player.
-Round End - Player1 executed.
-Round End - Player5 executed Player1.
-Round End - Fascists win by policies.
-Round End - Fascists win by policies.
+Round 127 - Player6: Player6 says: I am simulating a player.
+Round 128 - Player7: Player7 says: I am simulating a player.
+Round 129 - Player1 voted YES. Player2 voted YES. Player3 voted YES. Player4 voted NO. Player5 voted YES. Player6 voted YES. Player7 voted YES.
+Round 130 - Player1 nominated Player7 as Chancellor. Vote Results: Yes=6, No=1. Election outcome: Government approved.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 --- ROLES ---
+Player1: Role.LIBERAL
+Player2: Role.LIBERAL
+Player3: Role.LIBERAL
+Player4: Role.FASCIST
+Player5: Role.FASCIST
+Player6: Role.LIBERAL
+Player7: Role.HITLER
+Round 1 - Roles assigned.
+Round 2 - Roles assigned.
+Round 3 - Roles assigned.
+Round 4 - Roles assigned.
+Round 5 - Roles assigned.
+Round 6 - Roles assigned.
+Round 7 - Roles assigned.
+Round 8 - Player1: Player1 says: I am simulating a player.
+Round 9 - Government failed. Election tracker: 1.
+Round 10 - Player2: Player2 says: I am simulating a player.
+Round 11 - Player1: Player1 says: I am simulating a player.
+Round 12 - Player2: Player2 says: I am simulating a player.
+Round 13 - Player3: Player3 says: I am simulating a player.
+Round 14 - Player4: Player4 says: I am simulating a player.
+Round 15 - Player5: Player5 says: I am simulating a player.
+Round 16 - Player6: Player6 says: I am simulating a player.
+Round 17 - Player7: Player7 says: I am simulating a player.
+Round 18 - Player1: Player1 says: I am simulating a player.
+Round 19 - Player2: Player2 says: I am simulating a player.
+Round 20 - Player3: Player3 says: I am simulating a player.
+Round 21 - Player4: Player4 says: I am simulating a player.
+Round 22 - Player5: Player5 says: I am simulating a player.
+Round 23 - Player6: Player6 says: I am simulating a player.
+Round 24 - Player7: Player7 says: I am simulating a player.
+Round 25 - Player1 voted NO. Player2 voted NO. Player3 voted NO. Player4 voted YES. Player5 voted NO. Player6 voted NO. Player7 voted YES.
+Round 26 - Player2 nominated Player7 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 27 - Chaos policy enacted!
+Round 28 - Policy enacted: Fascist. Liberal policies enacted: 0, Fascist policies enacted: 1
+Round 29 - Chaos policy was Fascist.
+Round 30 - Government failed. Election tracker: 1.
+Round 31 - Player3: Player3 says: I am simulating a player.
+Round 32 - Player1: Player1 says: I am simulating a player.
+Round 33 - Player2: Player2 says: I am simulating a player.
+Round 34 - Player3: Player3 says: I am simulating a player.
+Round 35 - Player4: Player4 says: I am simulating a player.
+Round 36 - Player5: Player5 says: I am simulating a player.
+Round 37 - Player6: Player6 says: I am simulating a player.
+Round 38 - Player7: Player7 says: I am simulating a player.
+Round 39 - Player1: Player1 says: I am simulating a player.
+Round 40 - Player2: Player2 says: I am simulating a player.
+Round 41 - Player3: Player3 says: I am simulating a player.
+Round 42 - Player4: Player4 says: I am simulating a player.
+Round 43 - Player5: Player5 says: I am simulating a player.
+Round 44 - Player6: Player6 says: I am simulating a player.
+Round 45 - Player7: Player7 says: I am simulating a player.
+Round 46 - Player1 voted NO. Player2 voted YES. Player3 voted NO. Player4 voted YES. Player5 voted NO. Player6 voted NO. Player7 voted NO.
+Round 47 - Player3 nominated Player6 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 48 - Government failed. Election tracker: 2.
+Round 49 - Player4: Player4 says: I am simulating a player.
+Round 50 - Player1: Player1 says: I am simulating a player.
+Round 51 - Player2: Player2 says: I am simulating a player.
+Round 52 - Player3: Player3 says: I am simulating a player.
+Round 53 - Player4: Player4 says: I am simulating a player.
+Round 54 - Player5: Player5 says: I am simulating a player.
+Round 55 - Player6: Player6 says: I am simulating a player.
+Round 56 - Player7: Player7 says: I am simulating a player.
+Round 57 - Player1: Player1 says: I am simulating a player.
+Round 58 - Player2: Player2 says: I am simulating a player.
+Round 59 - Player3: Player3 says: I am simulating a player.
+Round 60 - Player4: Player4 says: I am simulating a player.
+Round 61 - Player5: Player5 says: I am simulating a player.
+Round 62 - Player6: Player6 says: I am simulating a player.
+Round 63 - Player7: Player7 says: I am simulating a player.
+Round 64 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted NO. Player5 voted YES. Player6 voted NO. Player7 voted NO.
+Round 65 - Player4 nominated Player1 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 66 - Policy enacted: Fascist. Liberal policies enacted: 0, Fascist policies enacted: 2
+Round 67 - Election Tracker maxed! Fascist policy enacted .
+Round 68 - Player5: Player5 says: I am simulating a player.
+Round 69 - Player1: Player1 says: I am simulating a player.
+Round 70 - Player2: Player2 says: I am simulating a player.
+Round 71 - Player3: Player3 says: I am simulating a player.
+Round 72 - Player4: Player4 says: I am simulating a player.
+Round 73 - Player5: Player5 says: I am simulating a player.
+Round 74 - Player6: Player6 says: I am simulating a player.
+Round 75 - Player7: Player7 says: I am simulating a player.
+Round 76 - Player1: Player1 says: I am simulating a player.
+Round 77 - Player2: Player2 says: I am simulating a player.
+Round 78 - Player3: Player3 says: I am simulating a player.
+Round 79 - Player4: Player4 says: I am simulating a player.
+Round 80 - Player5: Player5 says: I am simulating a player.
+Round 81 - Player6: Player6 says: I am simulating a player.
+Round 82 - Player7: Player7 says: I am simulating a player.
+Round 83 - Player1 voted YES. Player2 voted NO. Player3 voted NO. Player4 voted NO. Player5 voted NO. Player6 voted YES. Player7 voted NO.
+Round 84 - Player5 nominated Player6 as Chancellor. Vote Results: Yes=2, No=5. Election outcome: Government failed.
+Round 85 - Chaos policy enacted!
+Round 86 - Policy enacted: Liberal. Liberal policies enacted: 1, Fascist policies enacted: 2
+Round 87 - Chaos policy was Liberal.
+Round 88 - Government failed. Election tracker: 1.
+Round 89 - Player6: Player6 says: I am simulating a player.
+Round 90 - Player1: Player1 says: I am simulating a player.
+Round 91 - Player2: Player2 says: I am simulating a player.
+Round 92 - Player3: Player3 says: I am simulating a player.
+Round 93 - Player4: Player4 says: I am simulating a player.
+Round 94 - Player5: Player5 says: I am simulating a player.
+Round 95 - Player6: Player6 says: I am simulating a player.
+Round 96 - Player7: Player7 says: I am simulating a player.
+Round 97 - Player1: Player1 says: I am simulating a player.
+Round 98 - Player2: Player2 says: I am simulating a player.
+Round 99 - Player3: Player3 says: I am simulating a player.
+Round 100 - Player4: Player4 says: I am simulating a player.
+Round 101 - Player5: Player5 says: I am simulating a player.
+Round 102 - Player6: Player6 says: I am simulating a player.
+Round 103 - Player7: Player7 says: I am simulating a player.
+Round 104 - Player1 voted NO. Player2 voted YES. Player3 voted YES. Player4 voted NO. Player5 voted YES. Player6 voted NO. Player7 voted YES.
+Round 105 - Player6 nominated Player5 as Chancellor. Vote Results: Yes=4, No=3. Election outcome: Government approved.
+Round 106 - Player6: Player6 says: I am simulating a player.
+Round 107 - Player5: Player5 says: I am simulating a player.
+Round 108 - Policy enacted: Fascist. Liberal policies enacted: 1, Fascist policies enacted: 3
+Round 109 - President Player6 discarded a policy. Chancellor Player5 enacted a Role.FASCIST policy.
+Round 110 - Player6: Player6 says: I am simulating a player.
+Round 111 - Player6 investigated Player4. Result: Role.FASCIST membership.
+Round 112 - Player7: Player7 says: I am simulating a player.
+Round 113 - Government failed. Election tracker: 1.
+Round 114 - Player1: Player1 says: I am simulating a player.
+Round 115 - Player1: Player1 says: I am simulating a player.
+Round 116 - Player2: Player2 says: I am simulating a player.
+Round 117 - Player3: Player3 says: I am simulating a player.
+Round 118 - Player4: Player4 says: I am simulating a player.
+Round 119 - Player5: Player5 says: I am simulating a player.
+Round 120 - Player6: Player6 says: I am simulating a player.
+Round 121 - Player7: Player7 says: I am simulating a player.
+Round 122 - Player1: Player1 says: I am simulating a player.
+Round 123 - Player2: Player2 says: I am simulating a player.
+Round 124 - Player3: Player3 says: I am simulating a player.
+Round 125 - Player4: Player4 says: I am simulating a player.
+Round 126 - Player5: Player5 says: I am simulating a player.
+Round 127 - Player6: Player6 says: I am simulating a player.
+Round 128 - Player7: Player7 says: I am simulating a player.
+Round 129 - Player1 voted YES. Player2 voted YES. Player3 voted YES. Player4 voted NO. Player5 voted YES. Player6 voted YES. Player7 voted YES.
+Round 130 - Player1 nominated Player7 as Chancellor. Vote Results: Yes=6, No=1. Election outcome: Government approved.

@@ -50,6 +50,21 @@ All logs are timestamped and stored in the `logs/` directory when running with t
 *   **Discussion and Communication:** LLM agents participate in turn-based discussions.
 *   **Game Logging:** Game events, thoughts, and public statements are logged.
 
+
+### 🏆 Secret Hitler LLM Leaderboard
+
+| Rank | Model | ELO | Matches | Win Rate | Wins | Losses |
+|---|---|---|---|---|---|---|
+| 1 | `DeepSeekV3` | **1232** | 3 | 66.7% | 2 | 1 |
+| 2 | `DeepSeekR1` | **1232** | 3 | 66.7% | 2 | 1 |
+| 3 | `Gemma27b` | **1200** | 3 | 33.3% | 1 | 2 |
+| 4 | `GLM4Air` | **1200** | 3 | 33.3% | 1 | 2 |
+| 5 | `KatCoder` | **1200** | 3 | 33.3% | 1 | 2 |
+| 6 | `GeminiFlash` | **1168** | 3 | 0.0% | 0 | 3 |
+| 7 | `Grok4Fast` | **1168** | 3 | 0.0% | 0 | 3 |
+
+*Last Updated: 2025-11-22 00:19:54*
+
 ## Getting Started
 
 These instructions will guide you on how to set up and run the current codebase.

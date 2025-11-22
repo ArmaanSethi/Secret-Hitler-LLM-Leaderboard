@@ -237,10 +237,11 @@ class LLMPlayerInterface:
                 error_message = str(e)
 
                 error_msg = error_message.lower()
-                if ("rate limit" in error_msg or
-                        "timeout" in error_msg or
-                        "APIError" in error_message):
+                if ("rate limit" in error_msg or "429" in error_msg):
                     is_retryable_error = True
+                    # Aggressive backoff for rate limits
+                    retry_delay = max(retry_delay, 10) 
+                    max_retries = 10 # Increase retries for rate limits
 
                 error_log_msg = (
                     f"Error calling LLM for {self.player_name} "
@@ -257,7 +258,7 @@ class LLMPlayerInterface:
                     print(
                         f"Retryable error detected. Retrying in {delay:.2f} seconds...")
                     time.sleep(delay)
-                    retry_delay *= 2
+                    retry_delay *= 1.5 # Slower exponential backoff
                 else:
                     print(
                         f"Max retries reached for {self.player_name}. Choosing default action.")

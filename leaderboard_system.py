@@ -178,6 +178,19 @@ class LeaderboardManager:
         conn.close()
         return new_winners, new_losers
 
+    def get_leaderboard_markdown(self):
+        players = self.get_all_players()
+        md = "### 🏆 Secret Hitler LLM Leaderboard\n\n"
+        md += "| Rank | Model | ELO | Matches | Win Rate | Wins | Losses |\n"
+        md += "|---|---|---|---|---|---|---|\n"
+        
+        for i, p in enumerate(players):
+            win_rate = (p['wins'] / p['matches_played'] * 100) if p['matches_played'] > 0 else 0
+            md += f"| {i+1} | `{p['name']}` | **{p['elo']:.0f}** | {p['matches_played']} | {win_rate:.1f}% | {p['wins']} | {p['losses']} |\n"
+            
+        md += f"\n*Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n"
+        return md
+
 if __name__ == "__main__":
     # Simple test
     lm = LeaderboardManager()

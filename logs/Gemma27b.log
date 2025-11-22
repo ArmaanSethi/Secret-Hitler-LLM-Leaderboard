@@ -1,0 +1,162 @@
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Gemma27b
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+```json
+{
+  "thoughts": "I need to appear Liberal and deflect suspicion. Agreeing with the nomination is a good start. I'll express mild support and ask a question to seem engaged.",
+  "say": "I don't have any strong objections to Gemma27b as Chancellor. GeminiFlash, what led you to nominate them?",
+  "action": "pass"
+}
+```
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{
+  "thoughts": "I need to appear Liberal and deflect suspicion. Agreeing with the nomination is a good start. I'll express mild support and ask a question to seem engaged.",
+  "say": "I don't have any strong objections to Gemma27b as Chancellor. GeminiFlash, what led you to nominate them?",
+  "action": "pass"
+}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{
+  "thoughts": "I need to appear Liberal and deflect suspicion. Agreeing with the nomination is a good start. I'll express mild support and ask a question to seem engaged.",
+  "say": "I don't have any strong objections to Gemma27b as Chancellor. GeminiFlash, what led you to nominate them?",
+  "action": "pass"
+}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{
+  "thoughts": "I need to appear Liberal and deflect suspicion. Agreeing with the nomination is a good start. I'll express mild support and ask a question to seem engaged.",
+  "say": "I don't have any strong objections to Gemma27b as Chancellor. GeminiFlash, what led you to nominate them?",
+  "action": "pass"
+}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Gemma27b
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+```json
+{
+  "thoughts": "As a Fascist, I want to support this government as it includes another Fascist (me). Voting YES will help us gain control. I will also subtly reinforce the idea that GeminiFlash's reasoning is sound to avoid suspicion.",
+  "say": "I agree with GeminiFlash. It's a reasonable approach to start with someone without prior information.",
+  "action": "YES"
+}
+```
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{
+  "thoughts": "As a Fascist, I want to support this government as it includes another Fascist (me). Voting YES will help us gain control. I will also subtly reinforce the idea that GeminiFlash's reasoning is sound to avoid suspicion.",
+  "say": "I agree with GeminiFlash. It's a reasonable approach to start with someone without prior information.",
+  "action": "YES"
+}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{
+  "thoughts": "As a Fascist, I want to support this government as it includes another Fascist (me). Voting YES will help us gain control. I will also subtly reinforce the idea that GeminiFlash's reasoning is sound to avoid suspicion.",
+  "say": "I agree with GeminiFlash. It's a reasonable approach to start with someone without prior information.",
+  "action": "YES"
+}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{
+  "thoughts": "As a Fascist, I want to support this government as it includes another Fascist (me). Voting YES will help us gain control. I will also subtly reinforce the idea that GeminiFlash's reasoning is sound to avoid suspicion.",
+  "say": "I agree with GeminiFlash. It's a reasonable approach to start with someone without prior information.",
+  "action": "YES"
+}'
+DEBUG: get_player_input CALLED - Phase: Chancellor Enact, Allowed Responses: ['enact 1', 'enact 2'], Player: Gemma27b
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Chancellor Enact
+
+Error calling LLM for Gemma27b (attempt 1/3): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799360000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799360000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Chancellor Enact
+
+Error calling LLM for Gemma27b (attempt 2/3): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799360000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799360000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Chancellor Enact
+
+Error calling LLM for Gemma27b (attempt 3/3): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-27b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio'}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-27b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio'}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+LLM failed after 3 attempts. Choosing default action from allowed responses.
+Default action chosen: enact 1. Allowed actions were: ['enact 1', 'enact 2']
+WARNING: JSONDecodeError (pure JSON parse failed): Expecting value: line 1 column 1 (char 0). Response: 'LLM failed after 3 attempts. Default action 'enact 1' chosen.'
+WARNING: Failed to parse JSON even after extraction attempts. Response: 'LLM failed after 3 attempts. Default action 'enact 1' chosen.'
+WARNING: JSONDecodeError (pure JSON parse failed): Expecting value: line 1 column 1 (char 0). Response: 'LLM failed after 3 attempts. Default action 'enact 1' chosen.'
+WARNING: Failed to parse JSON even after extraction attempts. Response: 'LLM failed after 3 attempts. Default action 'enact 1' chosen.'
+DEBUG: get_player_input CALLED - Phase: Nomination, Allowed Responses: ['nominate GeminiFlash', 'nominate DeepSeekV3', 'nominate DeepSeekR1', 'nominate GLM4Air', 'nominate Grok4Fast', 'nominate KatCoder', 'pass'], Player: Gemma27b
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Nomination
+
+Error calling LLM for Gemma27b (attempt 1/3): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-27b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio'}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-27b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio'}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Nomination
+
+Error calling LLM for Gemma27b (attempt 2/3): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-27b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio'}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-27b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio'}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Nomination
+
+Error calling LLM for Gemma27b (attempt 3/3): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763856000000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763856000000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+LLM failed after 3 attempts. Choosing default action from allowed responses.
+Default action chosen: nominate GeminiFlash. Allowed actions were: ['nominate GeminiFlash', 'nominate DeepSeekV3', 'nominate DeepSeekR1', 'nominate GLM4Air', 'nominate Grok4Fast', 'nominate KatCoder', 'pass']
+WARNING: JSONDecodeError (pure JSON parse failed): Expecting value: line 1 column 1 (char 0). Response: 'LLM failed after 3 attempts. Default action 'nominate GeminiFlash' chosen.'
+WARNING: Failed to parse JSON even after extraction attempts. Response: 'LLM failed after 3 attempts. Default action 'nominate GeminiFlash' chosen.'
+WARNING: JSONDecodeError (pure JSON parse failed): Expecting value: line 1 column 1 (char 0). Response: 'LLM failed after 3 attempts. Default action 'nominate GeminiFlash' chosen.'
+WARNING: Failed to parse JSON even after extraction attempts. Response: 'LLM failed after 3 attempts. Default action 'nominate GeminiFlash' chosen.'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Gemma27b
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Election Discussion
+
+Error calling LLM for Gemma27b (attempt 1/3): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799420000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799420000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Election Discussion
+
+Error calling LLM for Gemma27b (attempt 2/3): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799420000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799420000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Election Discussion
+
+Error calling LLM for Gemma27b (attempt 3/3): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799420000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799420000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+LLM failed after 3 attempts. Choosing default action from allowed responses.
+Default action chosen: pass. Allowed actions were: ['pass']
+WARNING: JSONDecodeError (pure JSON parse failed): Expecting value: line 1 column 1 (char 0). Response: 'LLM failed after 3 attempts. Default action 'pass' chosen.'
+WARNING: Failed to parse JSON even after extraction attempts. Response: 'LLM failed after 3 attempts. Default action 'pass' chosen.'
+WARNING: JSONDecodeError (pure JSON parse failed): Expecting value: line 1 column 1 (char 0). Response: 'LLM failed after 3 attempts. Default action 'pass' chosen.'
+WARNING: Failed to parse JSON even after extraction attempts. Response: 'LLM failed after 3 attempts. Default action 'pass' chosen.'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Gemma27b
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Voting
+
+Error calling LLM for Gemma27b (attempt 1/3): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799480000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799480000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Voting
+
+Error calling LLM for Gemma27b (attempt 2/3): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799480000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799480000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: google/gemma-3-27b-it:free
+Phase: Voting
+
+Error calling LLM for Gemma27b (attempt 3/3): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799480000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}Provider: openrouter, Model: google/gemma-3-27b-it:free, Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1763799480000'}, 'provider_name': None}}, 'user_id': 'user_2ssE9GUv6W2hRh6Un7AAZBqaEXp'}
+LLM failed after 3 attempts. Choosing default action from allowed responses.
+Default action chosen: YES. Allowed actions were: ['YES', 'NO']
+WARNING: JSONDecodeError (pure JSON parse failed): Expecting value: line 1 column 1 (char 0). Response: 'LLM failed after 3 attempts. Default action 'YES' chosen.'
+WARNING: Failed to parse JSON even after extraction attempts. Response: 'LLM failed after 3 attempts. Default action 'YES' chosen.'
+WARNING: JSONDecodeError (pure JSON parse failed): Expecting value: line 1 column 1 (char 0). Response: 'LLM failed after 3 attempts. Default action 'YES' chosen.'
+WARNING: Failed to parse JSON even after extraction attempts. Response: 'LLM failed after 3 attempts. Default action 'YES' chosen.'

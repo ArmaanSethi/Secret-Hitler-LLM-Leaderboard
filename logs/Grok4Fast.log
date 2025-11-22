@@ -1,0 +1,39 @@
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Grok4Fast
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: x-ai/grok-4.1-fast:free
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts":"Early game, first nomination. GeminiFlash picked Gemma27b randomly? Lots of questions about why her specifically. Gemma27b's self-reference is odd. As Liberal, probe gently to gather info without accusing, build trust by being engaged.","say":"GeminiFlash, why Gemma27b specifically? It's super early, but curious if there's any read. No big red flags yet, but let's discuss.","action":"pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts":"Early game, first nomination. GeminiFlash picked Gemma27b randomly? Lots of questions about why her specifically. Gemma27b's self-reference is odd. As Liberal, probe gently to gather info without accusing, build trust by being engaged.","say":"GeminiFlash, why Gemma27b specifically? It's super early, but curious if there's any read. No big red flags yet, but let's discuss.","action":"pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts":"Early game, first nomination. GeminiFlash picked Gemma27b randomly? Lots of questions about why her specifically. Gemma27b's self-reference is odd. As Liberal, probe gently to gather info without accusing, build trust by being engaged.","say":"GeminiFlash, why Gemma27b specifically? It's super early, but curious if there's any read. No big red flags yet, but let's discuss.","action":"pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts":"Early game, first nomination. GeminiFlash picked Gemma27b randomly? Lots of questions about why her specifically. Gemma27b's self-reference is odd. As Liberal, probe gently to gather info without accusing, build trust by being engaged.","say":"GeminiFlash, why Gemma27b specifically? It's super early, but curious if there's any read. No big red flags yet, but let's discuss.","action":"pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Grok4Fast
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: x-ai/grok-4.1-fast:free
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts":"Early game, no info, random nomination fine. Others leaning YES (DeepSeekR1, GLM4Air), pres/chanc support. Vote YES to avoid tracker risk, observe policies for info. Stay engaged as Liberal.","say":"No red flags yet, I'll vote YES cautiously to see the policies.","action":"YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts":"Early game, no info, random nomination fine. Others leaning YES (DeepSeekR1, GLM4Air), pres/chanc support. Vote YES to avoid tracker risk, observe policies for info. Stay engaged as Liberal.","say":"No red flags yet, I'll vote YES cautiously to see the policies.","action":"YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts":"Early game, no info, random nomination fine. Others leaning YES (DeepSeekR1, GLM4Air), pres/chanc support. Vote YES to avoid tracker risk, observe policies for info. Stay engaged as Liberal.","say":"No red flags yet, I'll vote YES cautiously to see the policies.","action":"YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts":"Early game, no info, random nomination fine. Others leaning YES (DeepSeekR1, GLM4Air), pres/chanc support. Vote YES to avoid tracker risk, observe policies for info. Stay engaged as Liberal.","say":"No red flags yet, I'll vote YES cautiously to see the policies.","action":"YES"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Grok4Fast
+
+=== NEW REQUEST ===
+Provider: openrouter, Model: x-ai/grok-4.1-fast:free
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts":"New gov: Pres Gemma27b (prev Chanc, silent but enacted Liberal), Chanc GeminiFlash (prev Pres, transparent discard). Successful Liberal policy last round, swapping safe early. No fas policies, support to progress but watch actions. Stay engaged.","say":"Swapping from successful gov looks good. GeminiFlash was transparent before, Gemma27b enacted Liberal. Any concerns? I'll lean YES.","action":"pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts":"New gov: Pres Gemma27b (prev Chanc, silent but enacted Liberal), Chanc GeminiFlash (prev Pres, transparent discard). Successful Liberal policy last round, swapping safe early. No fas policies, support to progress but watch actions. Stay engaged.","say":"Swapping from successful gov looks good. GeminiFlash was transparent before, Gemma27b enacted Liberal. Any concerns? I'll lean YES.","action":"pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts":"New gov: Pres Gemma27b (prev Chanc, silent but enacted Liberal), Chanc GeminiFlash (prev Pres, transparent discard). Successful Liberal policy last round, swapping safe early. No fas policies, support to progress but watch actions. Stay engaged.","say":"Swapping from successful gov looks good. GeminiFlash was transparent before, Gemma27b enacted Liberal. Any concerns? I'll lean YES.","action":"pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts":"New gov: Pres Gemma27b (prev Chanc, silent but enacted Liberal), Chanc GeminiFlash (prev Pres, transparent discard). Successful Liberal policy last round, swapping safe early. No fas policies, support to progress but watch actions. Stay engaged.","say":"Swapping from successful gov looks good. GeminiFlash was transparent before, Gemma27b enacted Liberal. Any concerns? I'll lean YES.","action":"pass"}'
