@@ -8,10 +8,69 @@ class BaseLLMClient:
             "Subclasses must implement chat_completion method")
 
 
-class GeminiClient(BaseLLMClient):
+from google import genai
+from google.genai import types
+
+class GoogleGenAIClient(BaseLLMClient):
     def __init__(self, api_key):
+        self.client = genai.Client(api_key=api_key)
+
+    def chat_completion(self, model_name, messages, **kwargs):
+        try:
+            # Convert OpenAI-style messages to Gemini content format
+            # messages is list of {"role": "...", "content": "..."}
+            prompt = ""
+            system_instruction = None
+            
+            for msg in messages:
+                if msg['role'] == 'system':
+                    system_instruction = msg['content']
+                elif msg['role'] == 'user':
+                    prompt += f"User: {msg['content']}\n"
+                elif msg['role'] == 'assistant':
+                    prompt += f"Model: {msg['content']}\n"
+            
+            # Configure generation config
+            config = types.GenerateContentConfig(
+                system_instruction=system_instruction,
+                temperature=kwargs.get('temperature', 0.7),
+                top_p=kwargs.get('top_p', 0.95),
+                max_output_tokens=kwargs.get('max_tokens', 1000),
+                response_mime_type="application/json" # Force JSON output
+            )
+
+            response = self.client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+                config=config
+            )
+            
+            # Mock OpenAI response structure for compatibility
+            class MockMessage:
+                def __init__(self, content):
+                    self.content = content
+            
+            class MockChoice:
+                def __init__(self, content):
+                    self.message = MockMessage(content)
+                    
+            class MockResponse:
+                def __init__(self, content):
+                    self.choices = [MockChoice(content)]
+            
+            return MockResponse(response.text)
+
+        except Exception as e:
+            print(f"Google GenAI API Error: {e}")
+            raise e
+
+
+class OllamaClient(BaseLLMClient):
+    def __init__(self, base_url="http://localhost:11434/v1", api_key="ollama"):
         self.client = OpenAI(
-            api_key=api_key, base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
+            base_url=base_url,
+            api_key=api_key,
+        )
 
     def chat_completion(self, model_name, messages, **kwargs):
         try:
@@ -22,8 +81,8 @@ class GeminiClient(BaseLLMClient):
             )
             return response
         except Exception as e:
-            print(f"Gemini API Error: {e}")  # Log error here as well
-            raise e  # Re-raise the exception to be caught in _llm_call_with_retry
+            print(f"Ollama API Error: {e}")
+            raise e
 
 
 class OpenRouterClient(BaseLLMClient):

@@ -111,14 +111,32 @@ Use the following command:
 python3 secret_hitler_game.py 7 \
   --player_models \
   Player1='{"provider":"openrouter","model":"deepseek/deepseek-r1:free","api_key_env":"OPENROUTER_API_KEY"}' \
-  Player2='{"provider":"openrouter","model":"deepseek/deepseek-r1-distill-llama-70b:free","api_key_env":"OPENROUTER_API_KEY"}' \
-  Player3='{"provider":"openrouter","model":"google/gemini-2.0-flash-lite-preview-02-05:free","api_key_env":"OPENROUTER_API_KEY"}' \
-  Player4='{"provider":"openrouter","model":"google/gemini-2.0-flash-exp:free","api_key_env":"OPENROUTER_API_KEY"}' \
-  Player5='{"provider":"openrouter","model":"nvidia/llama-3.1-nemotron-70b-instruct:free","api_key_env":"OPENROUTER_API_KEY"}' \
-  Player6='{"provider":"openrouter","model":"google/gemini-2.0-flash-thinking-exp-1219:free","api_key_env":"OPENROUTER_API_KEY"}' \
-  Player7='{"provider":"openrouter","model":"google/gemma-2-9b-it:free","api_key_env":"OPENROUTER_API_KEY"}' \
+  Player2='{"provider":"google_genai","model":"gemini-2.0-flash-exp","api_key_env":"GEMINI_API_KEY"}' \
+  Player3='{"provider":"ollama","model":"llama3","api_key_env":"OLLAMA_API_KEY"}' \
+  ...
   --debug_llm --log_to_file --slowdown 5
 ```
+
+### Supported Providers
+
+1.  **Google GenAI (Recommended for Free Tier)**
+    *   **Provider:** `google_genai`
+    *   **Model:** `gemini-2.0-flash-exp`, `gemini-1.5-flash`, etc.
+    *   **Env Var:** `GEMINI_API_KEY`
+    *   **Note:** Generous free tier limits (15 RPM).
+
+2.  **OpenRouter (Access to All Models)**
+    *   **Provider:** `openrouter`
+    *   **Model:** `deepseek/deepseek-r1:free`, `anthropic/claude-3.5-sonnet`, etc.
+    *   **Env Var:** `OPENROUTER_API_KEY`
+    *   **Note:** Great for variety, but free models have strict rate limits (50/day).
+
+3.  **Ollama (Local - Unlimited Free)**
+    *   **Provider:** `ollama`
+    *   **Model:** `llama3`, `mistral`, `gemma2`, etc.
+    *   **Env Var:** None (uses local instance)
+    *   **Note:** Requires [Ollama](https://ollama.com/) running locally (`ollama serve`). Unlimited usage!
+
 
 ## Usage
 

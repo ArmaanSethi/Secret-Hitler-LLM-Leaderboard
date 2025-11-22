@@ -25,11 +25,11 @@ class TestLeaderboard(unittest.TestCase):
 
     def test_record_match(self):
         match_data = {
-            "winner": "Liberals",
+            "winner": "Liberal",
             "players": {
                 "Alice": "Liberal",
                 "Bob": "Liberal",
-                "Charlie": "Fascist",
+                "Charlie": "FASCIST",
                 "Dave": "Hitler",
                 "Eve": "Liberal"
             }

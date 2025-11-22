@@ -5,7 +5,7 @@ import os
 import json
 import random
 from prompt_strings import PromptStrings
-from llm_clients import GeminiClient, OpenRouterClient, MockClient
+from llm_clients import GeminiClient, OpenRouterClient, MockClient, GoogleGenAIClient, OllamaClient
 
 
 class GameLogger:
@@ -122,8 +122,15 @@ class LLMPlayerInterface:
         self.provider_name = provider_name
 
         if provider_name == "gemini":
+            # Legacy Gemini via OpenAI compat
             self.llm_client = GeminiClient(api_key=api_key)
-        elif provider_name == "openrouter":
+        elif provider_name == 'google_genai':
+            # New Native Google GenAI
+            self.llm_client = GoogleGenAIClient(api_key=api_key)
+        elif provider_name == 'ollama':
+            # Local Ollama
+            self.llm_client = OllamaClient(api_key=api_key)
+        elif provider_name == 'openrouter':
             self.llm_client = OpenRouterClient(api_key=api_key)
         elif provider_name == "mock":
             self.llm_client = MockClient(api_key=api_key)
