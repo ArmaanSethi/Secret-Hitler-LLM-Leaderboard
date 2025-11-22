@@ -1,74 +1,650 @@
 DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
 
 === NEW REQUEST ===
-Provider: openrouter, Model: google/gemma-2-9b-it:free
+Provider: mock, Model: mock
 Phase: Election Discussion
 
 
 --- LLM RESPONSE ---
-```
-{
-"thoughts": "Player1 seems overly eager to nominate Player2.  I'm suspicious. Player2's silence is also concerning. I need more information.",
-"say": "I'm hesitant. Player1, can you elaborate on why you chose Player2 specifically?",
-"action": "pass" 
-} 
-```
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
 --- END RESPONSE ---
-WARNING: Invalid JSON response from LLM. Response: '```
-{
-"thoughts": "Player1 seems overly eager to nominate Player2.  I'm suspicious. Player2's silence is also concerning. I need more information.",
-"say": "I'm hesitant. Player1, can you elaborate on why you chose Player2 specifically?",
-"action": "pass" 
-}'
-WARNING: Invalid or missing 'action' in JSON response or action not in allowed responses. Defaulting to 'pass'. Response: '```
-{
-"thoughts": "Player1 seems overly eager to nominate Player2.  I'm suspicious. Player2's silence is also concerning. I need more information.",
-"say": "I'm hesitant. Player1, can you elaborate on why you chose Player2 specifically?",
-"action": "pass" 
-} 
-```', Allowed Actions: ['pass']
-WARNING: Invalid JSON response from LLM. Response: '```
-{
-"thoughts": "Player1 seems overly eager to nominate Player2.  I'm suspicious. Player2's silence is also concerning. I need more information.",
-"say": "I'm hesitant. Player1, can you elaborate on why you chose Player2 specifically?",
-"action": "pass" 
-}'
-WARNING: Invalid JSON response from LLM. Response: '```
-{
-"thoughts": "Player1 seems overly eager to nominate Player2.  I'm suspicious. Player2's silence is also concerning. I need more information.",
-"say": "I'm hesitant. Player1, can you elaborate on why you chose Player2 specifically?",
-"action": "pass" 
-}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
 DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
 
 === NEW REQUEST ===
-Provider: openrouter, Model: google/gemma-2-9b-it:free
+Provider: mock, Model: mock
 Phase: Voting
 
 
 --- LLM RESPONSE ---
-{
-"thoughts": "Player1's eagerness to nominate Player2 and their insistence on Player2's fairness is raising red flags. Player2's silence is also suspicious. I need more information before voting yes.",
-"say": "I need more time to consider this nomination.  Player1, can you elaborate on what specific qualities make you think Player2 would be a fair and balanced Chancellor?",
-"action": "pass" 
-}
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
 --- END RESPONSE ---
-WARNING: Invalid or missing 'action' in JSON response or action not in allowed responses. Defaulting to 'pass'. Response: '{
-"thoughts": "Player1's eagerness to nominate Player2 and their insistence on Player2's fairness is raising red flags. Player2's silence is also suspicious. I need more information before voting yes.",
-"say": "I need more time to consider this nomination.  Player1, can you elaborate on what specific qualities make you think Player2 would be a fair and balanced Chancellor?",
-"action": "pass" 
-}', Allowed Actions: ['YES', 'NO']
-DEBUG: get_player_input CALLED - Phase: Nomination, Allowed Responses: ['nominate Player1', 'nominate Player2', 'nominate Player4', 'nominate Player5', 'nominate Player6', 'nominate Player7', 'pass'], Player: Player3
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Nomination, Allowed Responses: ['nominate Player1', 'nominate Player2', 'nominate Player4', 'nominate Player5', 'pass'], Player: Player3
 
 === NEW REQUEST ===
-Provider: openrouter, Model: google/gemma-2-9b-it:free
+Provider: mock, Model: mock
 Phase: Nomination
 
 
 --- LLM RESPONSE ---
-{
-"thoughts": "Player1's push for Player2 is suspicious, and Player2's silence is worrisome. It's too early to make a definitive judgment, but I need to be cautious.  I'll nominate Player4 to see how they react and try to gauge the reactions of other players.",
-"say": "I nominate Player4 for Chancellor.  I believe a fresh perspective might be beneficial at this stage.",
-"action": "nominate Player4" 
-}
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player2"}
 --- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player2"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player2"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player2"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Nomination, Allowed Responses: ['nominate Player1', 'nominate Player2', 'nominate Player4', 'nominate Player5', 'pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Nomination
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player5"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player5"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player5"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player5"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Nomination, Allowed Responses: ['nominate Player1', 'nominate Player2', 'nominate Player4', 'nominate Player5', 'pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Nomination
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Nomination, Allowed Responses: ['nominate Player1', 'nominate Player2', 'nominate Player4', 'nominate Player5', 'pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Nomination
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player2"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player2"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player2"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player2"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Nomination, Allowed Responses: ['nominate Player1', 'nominate Player2', 'nominate Player4', 'nominate Player5', 'pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Nomination
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player5"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player5"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player5"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "nominate Player5"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "YES"}'
+DEBUG: get_player_input CALLED - Phase: Nomination, Allowed Responses: ['nominate Player1', 'nominate Player2', 'nominate Player4', 'nominate Player5', 'pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Nomination
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: get_player_input CALLED - Phase: Election Discussion, Allowed Responses: ['pass'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Election Discussion
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "pass"}'
+DEBUG: get_player_input CALLED - Phase: Voting, Allowed Responses: ['YES', 'NO'], Player: Player3
+
+=== NEW REQUEST ===
+Provider: mock, Model: mock
+Phase: Voting
+
+
+--- LLM RESPONSE ---
+{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}
+--- END RESPONSE ---
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'
+DEBUG: Successfully parsed JSON after curly brace extraction. Extracted JSON: '{"thoughts": "I am a mock bot. Beep boop.", "say": "I am simulating a player.", "action": "NO"}'

@@ -5,7 +5,7 @@ import os
 import json
 import random
 from prompt_strings import PromptStrings
-from llm_clients import GeminiClient, OpenRouterClient
+from llm_clients import GeminiClient, OpenRouterClient, MockClient
 
 
 class GameLogger:
@@ -125,6 +125,8 @@ class LLMPlayerInterface:
             self.llm_client = GeminiClient(api_key=api_key)
         elif provider_name == "openrouter":
             self.llm_client = OpenRouterClient(api_key=api_key)
+        elif provider_name == "mock":
+            self.llm_client = MockClient(api_key=api_key)
         else:
             raise ValueError(f"Unsupported provider: {provider_name}")
 

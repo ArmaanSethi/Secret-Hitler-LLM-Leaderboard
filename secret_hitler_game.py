@@ -3,6 +3,7 @@ import os
 import sys
 import time
 import json
+from typing import Optional
 
 from secret_hitler_engine import GameState, is_valid_chancellor_nominee, Role, PlayerStatus
 from llm_interface import LLMPlayerInterface, GameLogger
@@ -118,7 +119,7 @@ class GameRunner:
             self.game_state.log_event(None, "Roles assigned.",
                                       private_info=private_info)
 
-    def display_state_terminal(self,  message: str | None = None, error_message: str | None = None, debug_message: str | None = None, current_player_name: str | None = None):
+    def display_state_terminal(self,  message: Optional[str] = None, error_message: Optional[str] = None, debug_message: Optional[str] = None, current_player_name: Optional[str] = None):
         if error_message:
             print(f"ERROR: {error_message}")
         if debug_message and self.config.debug_llm_enabled:
