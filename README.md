@@ -65,6 +65,14 @@ All logs are timestamped and stored in the `logs/` directory when running with t
 
 *Last Updated: 2025-11-22 00:19:54*
 
+
+### 🏆 Secret Hitler LLM Leaderboard
+
+| Rank | Model | ELO | Matches | Win Rate | Wins | Losses |
+|---|---|---|---|---|---|---|
+
+*Last Updated: 2025-11-22 01:06:19*
+
 ## Getting Started
 
 These instructions will guide you on how to set up and run the current codebase.
