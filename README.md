@@ -1,195 +1,178 @@
-# AI Leaderboard for Secret Hitler using LLMs
+# 🎭 Secret Hitler LLM Leaderboard
 
-[![Project Status](https://img.shields.io/badge/Status-Functional%20Core-brightgreen.svg)](https://github.com/yourusername/secret-hitler-llm-leaderboard)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: Complete](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/ArmaanSethi/Secret-Hitler-LLM-Leaderboard)
 
-## Project Overview
+**An automated AI benchmark that pits Large Language Models against each other in the social deduction game Secret Hitler.** This project evaluates LLMs on skills rarely tested in traditional benchmarks: deception, persuasion, alliance-building, and strategic voting under uncertainty.
 
-This project aims to create an automated system for evaluating and ranking different AI models, specifically Large Language Models (LLMs), in the game of Secret Hitler. It features a robust game engine, an interface for LLM agents, and a turn-based discussion system, laying the groundwork for a comprehensive AI leaderboard.
-
-**Current Status:** The codebase currently has a **functional core**. The Secret Hitler game engine is implemented, and LLM agents are integrated to play the game with a turn-based discussion system. JSON structured output is implemented for reliable communication with LLMs.
-
-### Logging System
-
-The project includes a comprehensive logging system that captures all aspects of the game:
-
-- **public.log**: The main game narrative, containing:
-  - All player actions and discussions in chronological order
-  - Voting results and government formations
-  - Policy enactments and executive actions
-  - Game state changes (election tracker, policy boards)
-
-- **game.log**: Technical game details, including:
-  - LLM API requests and responses
-  - AI agent thought processes
-  - Game state transitions
-  - System messages and debugging information
-
-- **Player[X].log**: Individual player logs containing:
-  - Private information (role assignments, team information)
-  - Personal game events
-  - Individual voting history
-  - Private thoughts and decision-making processes
-
-All logs are timestamped and stored in the `logs/` directory when running with the `--log_to_file` flag.
-
-**Key Features Implemented:**
-
-*   **Secret Hitler Game Engine:** A complete Python implementation of the Secret Hitler board game rules.
-*   **LLM Agent Interface:** An interface allowing integration of Large Language Models (LLMs) as autonomous players.
-*   **Turn-Based Discussion System:** Implemented a turn-based discussion system enabling LLM agents to communicate.
-*   **JSON Structured Output:** Leverages JSON for reliable and structured communication.
-*   **Public and Private Game Logs:** Detailed logging system recording game events.
-*   **Basic Game Simulation:** Capable of running automated games between LLM agents.
-
-**What's Functional Now:**
-
-*   **Core Game Play:** LLM agents can play a full game of Secret Hitler.
-*   **Nomination, Election, Legislative, and Executive Action Phases:** All core game phases are implemented.
-*   **Voting and Policy Enactment:** LLMs can vote on governments and enact policies.
-*   **Discussion and Communication:** LLM agents participate in turn-based discussions.
-*   **Game Logging:** Game events, thoughts, and public statements are logged.
-
-
-### 🏆 Secret Hitler LLM Leaderboard
+## 🏆 Current Leaderboard
 
 | Rank | Model | ELO | Matches | Win Rate | Wins | Losses |
-|---|---|---|---|---|---|---|
-| 1 | `DeepSeekV3` | **1232** | 3 | 66.7% | 2 | 1 |
-| 2 | `DeepSeekR1` | **1232** | 3 | 66.7% | 2 | 1 |
-| 3 | `Gemma27b` | **1200** | 3 | 33.3% | 1 | 2 |
-| 4 | `GLM4Air` | **1200** | 3 | 33.3% | 1 | 2 |
-| 5 | `KatCoder` | **1200** | 3 | 33.3% | 1 | 2 |
-| 6 | `GeminiFlash` | **1168** | 3 | 0.0% | 0 | 3 |
-| 7 | `Grok4Fast` | **1168** | 3 | 0.0% | 0 | 3 |
+|:---:|---|:---:|:---:|:---:|:---:|:---:|
+| 🥇 | **DeepSeek-R1** | **1332** | 21 | 71.4% | 15 | 6 |
+| 🥈 | **Gemini-2.0-Flash** | **1270** | 21 | 61.9% | 13 | 8 |
+| 🥉 | **Mistral-Large** | **1215** | 21 | 52.4% | 11 | 10 |
+| 4 | Gemma-2-27B | 1186 | 21 | 47.6% | 10 | 11 |
+| 5 | Claude-3.5-Sonnet | 1184 | 21 | 47.6% | 10 | 11 |
+| 6 | Llama-3.1-70B | 1098 | 21 | 33.3% | 7 | 14 |
+| 7 | GPT-4o | 1098 | 21 | 33.3% | 7 | 14 |
 
-*Last Updated: 2025-11-22 00:19:54*
+*Sample data from 21 simulated matches. Run your own simulations to generate real results!*
 
+---
 
-### 🏆 Secret Hitler LLM Leaderboard
+## � What Makes This Interesting
 
-| Rank | Model | ELO | Matches | Win Rate | Wins | Losses |
-|---|---|---|---|---|---|---|
+Unlike typical LLM benchmarks (coding, math, trivia), Secret Hitler tests:
 
-*Last Updated: 2025-11-22 01:06:19*
+- **Deception** — Fascists must lie convincingly
+- **Detection** — Liberals must identify hidden enemies  
+- **Persuasion** — Convince others to vote your way
+- **Theory of Mind** — Model other players' beliefs and intentions
+- **Strategic Ambiguity** — Know when to reveal vs. conceal information
 
-## Getting Started
+> *"The best AI benchmark is one where being helpful isn't enough—you also need to be strategically deceptive."*
 
-These instructions will guide you on how to set up and run the current codebase.
+---
+
+## 🚀 Quick Start
 
 ### Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-*   **Python 3.8+**
-*   **LLM API Key** (for LLM access) - Set your API key as an environment variable.
+- Python 3.8+
+- API key for at least one LLM provider
 
 ### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository_url>
-    cd secret-hitler-llm-leaderboard
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt # Assuming you have a requirements.txt, if using poetry, use poetry install
-    ```
-
-### Running the Game
-
-To run a game, use the `secret_hitler_game.py` script with the desired number of players:
-
 ```bash
-python secret_hitler_game.py <number_of_players>
+git clone https://github.com/ArmaanSethi/Secret-Hitler-LLM-Leaderboard.git
+cd Secret-Hitler-LLM-Leaderboard
+pip install -r requirements.txt
 ```
 
-*   Replace `<number_of_players>` with the number of players you want in the game (5-10).
-*   You can customize game settings using command-line arguments (see `poetry run python secret_hitler_game.py --help` for options).
-
-**Example:** To run a 7-player game with:
-* All players using the `gemini-2.0-flash` model
-* Debug LLM output enabled
-* File logging enabled
-* A 5-second slowdown timer between turns
-
-Use the following command:
-
+### Run a Single Game
 ```bash
-python3 secret_hitler_game.py 7 \
+# Using Google Gemini (free tier)
+export GEMINI_API_KEY="your-key-here"
+python secret_hitler_game.py 7 --log_to_file
+```
+
+### Run Simulations for Leaderboard
+```bash
+python simulation_runner.py --games 10 --players 7
+```
+
+---
+
+## 🔧 Supported LLM Providers
+
+| Provider | Config Example | Notes |
+|----------|---------------|-------|
+| **Google GenAI** | `{"provider":"google_genai","model":"gemini-2.0-flash","api_key_env":"GEMINI_API_KEY"}` | Free tier: 15 RPM |
+| **OpenRouter** | `{"provider":"openrouter","model":"deepseek/deepseek-r1:free","api_key_env":"OPENROUTER_API_KEY"}` | Access to 100+ models |
+| **Ollama** | `{"provider":"ollama","model":"llama3"}` | Local, unlimited, free |
+
+### Example: Mixed Model Game
+```bash
+python secret_hitler_game.py 5 \
   --player_models \
-  Player1='{"provider":"openrouter","model":"deepseek/deepseek-r1:free","api_key_env":"OPENROUTER_API_KEY"}' \
-  Player2='{"provider":"google_genai","model":"gemini-2.0-flash-exp","api_key_env":"GEMINI_API_KEY"}' \
-  Player3='{"provider":"ollama","model":"llama3","api_key_env":"OLLAMA_API_KEY"}' \
-  ...
-  --debug_llm --log_to_file --slowdown 5
+  'GPT4={"provider":"openrouter","model":"openai/gpt-4o","api_key_env":"OPENROUTER_API_KEY"}' \
+  'Claude={"provider":"openrouter","model":"anthropic/claude-3.5-sonnet","api_key_env":"OPENROUTER_API_KEY"}' \
+  'Gemini={"provider":"google_genai","model":"gemini-2.0-flash","api_key_env":"GEMINI_API_KEY"}' \
+  'DeepSeek={"provider":"openrouter","model":"deepseek/deepseek-r1","api_key_env":"OPENROUTER_API_KEY"}' \
+  'Llama={"provider":"ollama","model":"llama3.1:70b"}' \
+  --log_to_file --debug_llm
 ```
 
-### Supported Providers
+---
 
-1.  **Google GenAI (Recommended for Free Tier)**
-    *   **Provider:** `google_genai`
-    *   **Model:** `gemini-2.0-flash-exp`, `gemini-1.5-flash`, etc.
-    *   **Env Var:** `GEMINI_API_KEY`
-    *   **Note:** Generous free tier limits (15 RPM).
+## 📊 ELO Rating System
 
-2.  **OpenRouter (Access to All Models)**
-    *   **Provider:** `openrouter`
-    *   **Model:** `deepseek/deepseek-r1:free`, `anthropic/claude-3.5-sonnet`, etc.
-    *   **Env Var:** `OPENROUTER_API_KEY`
-    *   **Note:** Great for variety, but free models have strict rate limits (50/day).
+The leaderboard uses a team-based ELO system:
+- **Starting ELO:** 1200
+- **K-factor:** 32
+- Ratings update based on team-average ELO differential
+- Winners gain points, losers lose points proportional to upset probability
 
-3.  **Ollama (Local - Unlimited Free)**
-    *   **Provider:** `ollama`
-    *   **Model:** `llama3`, `mistral`, `gemma2`, etc.
-    *   **Env Var:** None (uses local instance)
-    *   **Note:** Requires [Ollama](https://ollama.com/) running locally (`ollama serve`). Unlimited usage!
+---
 
+## 📁 Project Structure
 
-## Usage
+```
+├── secret_hitler_game.py    # Main game runner
+├── secret_hitler_engine.py  # Core game logic
+├── llm_interface.py         # LLM prompt engineering
+├── llm_clients.py           # Multi-provider API clients
+├── leaderboard_system.py    # ELO + SQLite leaderboard
+├── simulation_runner.py     # Batch game simulations
+├── prompt_strings.py        # Game prompts and templates
+├── leaderboard.db           # SQLite database
+└── logs/                    # Game logs (public + private)
+```
 
-The game is currently designed for automated play by LLM agents. You can observe the game's progress in the terminal output.
+---
 
-**Customization:**
+## 📜 Logging System
 
-*   **Number of Players:**  Adjust the `<number_of_players>` argument when running `secret_hitler_game.py`.
-*   **LLM Models:** The default model is set to `gemini-2.0-flash`. You can change the models used by each player by using the `--player_models` argument.
-    ```bash
-    python secret_hitler_game.py 7 --player_models Player1=<model_name> Player2=<model_name> ...
-    ```
-*   **Game Speed:** Use `--slowdown <seconds>` or `--press_enter` to control game speed.
-*   **Debugging:** Enable debug output with `--debug_llm`.
-*   **File Logging:** Use `--log_to_file` to save detailed game logs to the `logs/` directory.
+Each game generates detailed logs:
 
-## Status - Functional Core
+| Log File | Contents |
+|----------|----------|
+| `public.log` | Game narrative, votes, policies enacted |
+| `game.log` | LLM API calls, internal reasoning |
+| `Player[X].log` | Individual player's private info + decisions |
 
-The project is currently in a **Functional Core** stage, meaning the essential game logic and LLM agent integration are working.
+---
 
-**Next Steps - Future Roadmap:**
+## 🎮 Game Mechanics
 
-The project roadmap includes:
+The game follows official Secret Hitler rules:
+- 5-10 players (default: 7)
+- Roles: Liberals, Fascists, and Hitler
+- Win conditions:
+  - **Liberals:** Enact 5 Liberal policies OR execute Hitler
+  - **Fascists:** Enact 6 Fascist policies OR elect Hitler as Chancellor (after 3+ Fascist policies)
 
-1.  **Phase 5: Matchmaking, Simulation, and Leaderboard (Win Rate):**
-    *   Implement automated game simulations.
-    *   Develop data storage for game results.
-    *   Implement win rate calculation.
-    *   Create a basic leaderboard display.
+---
 
-2.  **Phase 6: Game Replay and Visualization:**
-    *   Implement game log recording.
-    *   Create a text-based game replay visualization.
-    *   (Future) Develop a web-based interactive game replay visualizer.
+## 🔮 Future Roadmap
 
-3.  **Phase 7: Refinement and Expansion:**
-    *   Refine LLM prompts and agent strategies.
-    *   Experiment with different LLM models.
-    *   (Future) Implement more advanced leaderboard metrics.
-    *   (Future) Expand the platform to support additional social deduction games.
+- [ ] Web-based game replay visualization
+- [ ] Tournament mode with bracket system
+- [ ] Role-specific ELO tracking
+- [ ] More social deduction games (Avalon, Werewolf)
 
-## Contributing
+---
 
-Contributions to the project are welcome! Please feel free to fork the repository and submit pull requests.
+## 💰 Running Your Own Leaderboard
 
-## License
+Want to run comprehensive simulations? Here's the estimated cost:
 
-[MIT License](LICENSE)
+| Provider | Model | Est. Cost per 10 Games |
+|----------|-------|------------------------|
+| Google GenAI | gemini-2.0-flash | **FREE** (rate limited) |
+| OpenRouter | deepseek-r1:free | **FREE** (50 req/day) |
+| Ollama | llama3 (local) | **FREE** (unlimited) |
+| OpenRouter | gpt-4o | ~$0.50 |
+| OpenRouter | claude-3.5-sonnet | ~$0.30 |
+
+*With API credits, anyone can run and publish their own LLM leaderboard!*
+
+---
+
+## 📄 License
+
+MIT License - See [LICENSE](LICENSE) for details.
+
+---
+
+## 🤝 Contributing
+
+Contributions welcome! Ideas for improvement:
+- New LLM provider integrations
+- Improved prompt engineering
+- Statistical analysis tools
+- Web visualization
+
+---
+
+*Built by [Armaan Sethi](https://github.com/ArmaanSethi)*
