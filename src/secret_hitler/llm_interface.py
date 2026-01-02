@@ -4,8 +4,8 @@ import logging
 import os
 import json
 import random
-from prompt_strings import PromptStrings
-from llm_clients import OpenRouterClient, MockClient, GoogleGenAIClient, OllamaClient
+from .prompts import PromptStrings
+from .llm_clients import OpenRouterClient, MockClient, GoogleGenAIClient, OllamaClient
 
 
 class GameLogger:

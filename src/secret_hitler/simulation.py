@@ -3,8 +3,8 @@ import json
 import os
 import time
 import concurrent.futures
-from secret_hitler_game import GameConfig, GameRunner
-from leaderboard_system import LeaderboardManager
+from .game import GameConfig, GameRunner
+from .leaderboard import LeaderboardManager
 
 class SimulationRunner:
     def __init__(self, num_games, num_players, player_models, max_workers=1, anonymous=False):

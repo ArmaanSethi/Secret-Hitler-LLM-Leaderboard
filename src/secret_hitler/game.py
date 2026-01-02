@@ -5,8 +5,8 @@ import time
 import json
 from typing import Optional
 
-from secret_hitler_engine import GameState, is_valid_chancellor_nominee, Role, PlayerStatus
-from llm_interface import LLMPlayerInterface, GameLogger
+from .engine import GameState, is_valid_chancellor_nominee, Role, PlayerStatus
+from .llm_interface import LLMPlayerInterface, GameLogger
 
 
 NOMINATE_ACTION_PREFIX = "nominate "

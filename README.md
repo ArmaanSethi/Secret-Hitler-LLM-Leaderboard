@@ -22,7 +22,7 @@
 
 ---
 
-## � What Makes This Interesting
+## 🎯 What Makes This Interesting
 
 Unlike typical LLM benchmarks (coding, math, trivia), Secret Hitler tests:
 
@@ -53,12 +53,12 @@ pip install -r requirements.txt
 ```bash
 # Using Google Gemini (free tier)
 export GEMINI_API_KEY="your-key-here"
-python secret_hitler_game.py 7 --log_to_file
+python run.py 7 --log_to_file
 ```
 
 ### Run Simulations for Leaderboard
 ```bash
-python simulation_runner.py --games 10 --players 7
+python simulate.py --games 10 --players 7
 ```
 
 ---
@@ -98,15 +98,22 @@ The leaderboard uses a team-based ELO system:
 ## 📁 Project Structure
 
 ```
-├── secret_hitler_game.py    # Main game runner
-├── secret_hitler_engine.py  # Core game logic
-├── llm_interface.py         # LLM prompt engineering
-├── llm_clients.py           # Multi-provider API clients
-├── leaderboard_system.py    # ELO + SQLite leaderboard
-├── simulation_runner.py     # Batch game simulations
-├── prompt_strings.py        # Game prompts and templates
-├── leaderboard.db           # SQLite database
-└── logs/                    # Game logs (public + private)
+├── run.py                    # Entry point: run single game
+├── simulate.py               # Entry point: run simulations
+├── src/
+│   └── secret_hitler/        # Main package
+│       ├── game.py           # Game runner
+│       ├── engine.py         # Core game logic
+│       ├── llm_interface.py  # LLM prompt engineering
+│       ├── llm_clients.py    # Multi-provider API clients
+│       ├── leaderboard.py    # ELO + SQLite leaderboard
+│       ├── simulation.py     # Batch simulations
+│       └── prompts.py        # Game prompts
+├── data/
+│   └── leaderboard.db        # SQLite database
+├── logs/                     # Game logs (public + private)
+├── tests/                    # Unit tests
+└── scripts/                  # Utility scripts
 ```
 
 ---
