@@ -50,16 +50,27 @@ pip install -r requirements.txt
 ```
 
 ### Run a Single Game
+Watch one full game unfold with detailed output. Great for demos and debugging.
 ```bash
-# Using Google Gemini (free tier)
 export GEMINI_API_KEY="your-key-here"
-python run.py 7 --log_to_file
+python run.py 7 --log_to_file --debug_llm
 ```
 
 ### Run Simulations for Leaderboard
+Run many games automatically to benchmark LLMs and build the leaderboard.
 ```bash
-python simulate.py --games 10 --players 7
+python simulate.py --games 50 --players 7
 ```
+
+### Single Game vs Simulations
+
+| | Single Game | Simulations |
+|---|---|---|
+| **Purpose** | Watch AI play, debug | Benchmark LLMs |
+| **Games** | 1 | Many (10-100+) |
+| **Output** | Detailed terminal logs | Summary + ELO ratings |
+| **Database** | Optional | Always records |
+| **Use case** | "How does GPT-4 play?" | "Which LLM is best?" |
 
 ---
 
